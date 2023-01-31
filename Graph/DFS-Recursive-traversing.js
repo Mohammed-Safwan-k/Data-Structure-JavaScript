@@ -12,7 +12,8 @@ class Graph {
     this.adjacencyList[v2].push(v1);
   }
 
-  // DFS Traversing
+  // DFS Traversing Recursive
+
   depthFirstRecursive(start) {
     const result = [];
     const visited = {};
@@ -48,7 +49,6 @@ g.addEdge("C", "E");
 g.addEdge("D", "E");
 g.addEdge("D", "F");
 g.addEdge("E", "F");
-
 
 g.depthFirstRecursive("A");
 console.log(g.depthFirstRecursive("A"));
