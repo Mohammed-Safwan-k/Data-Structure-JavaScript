@@ -11,6 +11,10 @@ class Graph {
     this.adjacencyList[v1].push(v2);
     this.adjacencyList[v2].push(v1);
   }
+
+
+
+  
 }
 
 var g = new Graph();
